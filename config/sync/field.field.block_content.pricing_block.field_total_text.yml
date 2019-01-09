@@ -1,0 +1,21 @@
+uuid: 6c4d75ef-7a19-464e-aecd-40e09d4f9959
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pricing_block
+    - field.storage.block_content.field_total_text
+  module:
+    - text
+id: block_content.pricing_block.field_total_text
+field_name: field_total_text
+entity_type: block_content
+bundle: pricing_block
+label: 'Total text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

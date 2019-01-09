@@ -1,0 +1,47 @@
+uuid: 37a01f15-c6f1-4afc-8568-22181c145b79
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_block
+    - field.field.block_content.contact_block.field_email
+    - field.field.block_content.contact_block.field_skype
+    - field.field.block_content.contact_block.field_telephone
+  module:
+    - skype
+    - telephone
+id: block_content.contact_block.default
+targetEntityType: block_content
+bundle: contact_block
+mode: default
+content:
+  field_email:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_skype:
+    weight: 28
+    settings: {  }
+    third_party_settings: {  }
+    type: skype_default
+    region: content
+  field_telephone:
+    weight: 27
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

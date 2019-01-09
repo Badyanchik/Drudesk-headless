@@ -1,0 +1,8 @@
+uuid: 64d17697-dae1-487e-9e2c-954b5f6c0819
+langcode: en
+status: true
+dependencies: {  }
+id: pricing_block
+label: 'Pricing block'
+revision: 0
+description: ''

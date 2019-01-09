@@ -1,0 +1,9 @@
+uuid: f27248db-04b2-483a-9cf5-c254f5cbddfd
+langcode: en
+status: true
+dependencies: {  }
+id: price
+label: Price
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

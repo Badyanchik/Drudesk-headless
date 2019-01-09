@@ -1,0 +1,54 @@
+uuid: 8b51ae92-905b-4e0c-bd79-968c1f3534ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.what_we_do_block
+    - field.field.block_content.what_we_do_block.field_description
+    - field.field.block_content.what_we_do_block.field_title
+    - field.field.block_content.what_we_do_block.field_what_we_do
+  module:
+    - paragraphs
+    - text
+id: block_content.what_we_do_block.default
+targetEntityType: block_content
+bundle: what_we_do_block
+mode: default
+content:
+  field_description:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_title:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_what_we_do:
+    type: entity_reference_paragraphs
+    weight: 29
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

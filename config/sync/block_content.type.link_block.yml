@@ -1,0 +1,8 @@
+uuid: 1fef6208-8b76-4899-8a51-8e150ebb32ff
+langcode: en
+status: true
+dependencies: {  }
+id: link_block
+label: 'Link block'
+revision: 0
+description: ''

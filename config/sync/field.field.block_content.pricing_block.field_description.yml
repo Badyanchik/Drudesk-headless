@@ -1,0 +1,21 @@
+uuid: d97376e9-c7b1-4702-a032-cc802c00013c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pricing_block
+    - field.storage.block_content.field_description
+  module:
+    - text
+id: block_content.pricing_block.field_description
+field_name: field_description
+entity_type: block_content
+bundle: pricing_block
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

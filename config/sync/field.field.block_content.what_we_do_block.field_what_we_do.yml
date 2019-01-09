@@ -1,0 +1,37 @@
+uuid: 3ad09995-e18f-4062-ba14-666c12907393
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.what_we_do_block
+    - field.storage.block_content.field_what_we_do
+    - paragraphs.paragraphs_type.what_we_do
+  module:
+    - entity_reference_revisions
+id: block_content.what_we_do_block.field_what_we_do
+field_name: field_what_we_do
+entity_type: block_content
+bundle: what_we_do_block
+label: 'What we do'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      what_we_do: what_we_do
+    target_bundles_drag_drop:
+      link:
+        weight: 4
+        enabled: false
+      text:
+        weight: 5
+        enabled: false
+      what_we_do:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

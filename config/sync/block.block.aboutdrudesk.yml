@@ -1,0 +1,25 @@
+uuid: ce3132a1-70e9-47a6-bf00-12c5ad16e84c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:19d9cf2d-c169-472f-b1f6-d10b6ac4056e'
+  module:
+    - block_content
+  theme:
+    - stark
+id: aboutdrudesk
+theme: stark
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:19d9cf2d-c169-472f-b1f6-d10b6ac4056e'
+settings:
+  id: 'block_content:19d9cf2d-c169-472f-b1f6-d10b6ac4056e'
+  label: 'About Drudesk'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

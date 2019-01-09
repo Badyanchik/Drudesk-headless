@@ -1,0 +1,41 @@
+uuid: 519e1f47-9c77-45c1-a906-d787d4b3201f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.what_we_do_block
+    - field.field.block_content.what_we_do_block.field_description
+    - field.field.block_content.what_we_do_block.field_title
+    - field.field.block_content.what_we_do_block.field_what_we_do
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.what_we_do_block.default
+targetEntityType: block_content
+bundle: what_we_do_block
+mode: default
+content:
+  field_description:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_what_we_do:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

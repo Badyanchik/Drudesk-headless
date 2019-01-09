@@ -1,0 +1,21 @@
+uuid: df36a2b9-bc92-4f4d-b384-980fb97227db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.price
+  module:
+    - text
+id: paragraph.price.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: price
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

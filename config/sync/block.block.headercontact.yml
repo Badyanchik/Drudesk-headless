@@ -1,0 +1,25 @@
+uuid: ceeafd65-0928-45e6-9e4d-9cdfed99cb9c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:contact_block:3c8c9287-fec5-4bd8-8433-7ce232bad6d1'
+  module:
+    - block_content
+  theme:
+    - stark
+id: headercontact
+theme: stark
+region: header
+weight: -5
+provider: null
+plugin: 'block_content:3c8c9287-fec5-4bd8-8433-7ce232bad6d1'
+settings:
+  id: 'block_content:3c8c9287-fec5-4bd8-8433-7ce232bad6d1'
+  label: 'Header contact'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
