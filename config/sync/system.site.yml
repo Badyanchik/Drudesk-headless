@@ -1,0 +1,14 @@
+uuid: 2e8c6a34-3438-4279-935d-31814d9ebe7f
+name: 'Drupal headless'
+mail: bodyaperhalyuk@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
