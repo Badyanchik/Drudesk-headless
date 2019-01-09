@@ -1,0 +1,41 @@
+uuid: 3baf09a2-9d2b-4082-8059-17ba9a0a5751
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_block
+    - field.field.block_content.contact_block.field_email
+    - field.field.block_content.contact_block.field_skype
+    - field.field.block_content.contact_block.field_telephone
+  module:
+    - skype
+id: block_content.contact_block.default
+targetEntityType: block_content
+bundle: contact_block
+mode: default
+content:
+  field_email:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_skype:
+    weight: 2
+    label: above
+    settings:
+      action: call
+      link_text: drudeskservice
+    third_party_settings: {  }
+    type: skype_uri
+    region: content
+  field_telephone:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

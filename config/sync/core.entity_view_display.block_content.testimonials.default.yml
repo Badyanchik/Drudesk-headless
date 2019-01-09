@@ -1,0 +1,33 @@
+uuid: e83d8cc6-d6af-4eac-99c0-6af6eef58784
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testimonials
+    - field.field.block_content.testimonials.field_testimonial
+    - field.field.block_content.testimonials.field_title
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.testimonials.default
+targetEntityType: block_content
+bundle: testimonials
+mode: default
+content:
+  field_testimonial:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

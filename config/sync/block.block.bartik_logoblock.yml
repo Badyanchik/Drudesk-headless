@@ -1,0 +1,25 @@
+uuid: a78429f6-3f36-4c4e-89ed-1a470aed6476
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:logo_block:5e653877-b890-4191-bafa-a1217949c482'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: bartik_logoblock
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:5e653877-b890-4191-bafa-a1217949c482'
+settings:
+  id: 'block_content:5e653877-b890-4191-bafa-a1217949c482'
+  label: 'Logo Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

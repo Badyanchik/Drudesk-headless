@@ -1,0 +1,8 @@
+uuid: e9681360-d48c-4d1e-a3fa-fd5f71c5c5b7
+langcode: en
+status: true
+dependencies: {  }
+id: what_we_do_block
+label: 'What we do block'
+revision: 0
+description: ''

@@ -1,0 +1,12 @@
+uuid: f666a595-726d-4def-9de4-c251f449c2f3
+langcode: en
+status: true
+dependencies: {  }
+id: front_page
+label: Front-page
+description: 'The main page'
+use_admin_theme: false
+path: /main
+access_logic: and
+access_conditions: {  }
+parameters: {  }

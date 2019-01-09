@@ -1,0 +1,28 @@
+uuid: 6a58c700-ebe7-4baa-bffb-49f9dce0a8a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link
+    - paragraphs.paragraphs_type.price
+  module:
+    - link
+id: paragraph.price.field_link
+field_name: field_link
+entity_type: paragraph
+bundle: price
+label: link
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    attributes: {  }
+    uri: 'internal:/'
+    title: 'Start working'
+    options: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

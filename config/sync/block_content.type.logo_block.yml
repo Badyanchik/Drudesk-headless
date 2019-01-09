@@ -1,0 +1,8 @@
+uuid: 1e162fe4-1667-4b06-b83f-453bd79795dd
+langcode: en
+status: true
+dependencies: {  }
+id: logo_block
+label: 'Logo block'
+revision: 0
+description: Logo

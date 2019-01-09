@@ -1,0 +1,41 @@
+uuid: 92f6fdbb-64b0-4734-9921-dc3db2df714d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.what_we_do.field_description
+    - field.field.paragraph.what_we_do.field_image
+    - field.field.paragraph.what_we_do.field_title
+    - paragraphs.paragraphs_type.what_we_do
+  module:
+    - image
+    - text
+id: paragraph.what_we_do.default
+targetEntityType: paragraph
+bundle: what_we_do
+mode: default
+content:
+  field_description:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_title:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

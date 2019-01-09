@@ -1,0 +1,49 @@
+uuid: dbb25790-3ac1-4712-9106-921448d6cdfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pricing_block
+    - field.field.block_content.pricing_block.field_description
+    - field.field.block_content.pricing_block.field_price
+    - field.field.block_content.pricing_block.field_title
+    - field.field.block_content.pricing_block.field_total_text
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.pricing_block.default
+targetEntityType: block_content
+bundle: pricing_block
+mode: default
+content:
+  field_description:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_price:
+    type: entity_reference_revisions_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_total_text:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

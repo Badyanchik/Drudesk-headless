@@ -1,0 +1,8 @@
+uuid: 879a1c70-985c-4247-b898-14ec27faa6dd
+langcode: en
+status: true
+dependencies: {  }
+id: text_and_link_block
+label: 'Text and link block'
+revision: 0
+description: ''

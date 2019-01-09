@@ -1,0 +1,21 @@
+uuid: f381d451-e0c6-4410-913d-bcc82bdd1b97
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_block
+    - field.storage.block_content.field_skype
+  module:
+    - skype
+id: block_content.contact_block.field_skype
+field_name: field_skype
+entity_type: block_content
+bundle: contact_block
+label: skype
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: skype

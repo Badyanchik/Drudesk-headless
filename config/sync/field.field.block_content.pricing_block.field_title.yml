@@ -1,0 +1,21 @@
+uuid: 41008f75-b432-489a-801a-907569ce769d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pricing_block
+    - field.storage.block_content.field_title
+  module:
+    - text
+id: block_content.pricing_block.field_title
+field_name: field_title
+entity_type: block_content
+bundle: pricing_block
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

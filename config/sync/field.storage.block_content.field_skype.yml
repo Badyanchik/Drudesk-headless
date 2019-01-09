@@ -1,0 +1,19 @@
+uuid: 74420974-c7d9-4dc1-b014-3ceeee2c43fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - skype
+id: block_content.field_skype
+field_name: field_skype
+entity_type: block_content
+type: skype
+settings: {  }
+module: skype
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

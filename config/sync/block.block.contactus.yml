@@ -1,0 +1,25 @@
+uuid: 81893fe0-0aff-42dc-a2bc-159de37991ca
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:link_block:2ce3f807-34d0-4388-8387-49e6b9110ed4'
+  module:
+    - block_content
+  theme:
+    - stark
+id: contactus
+theme: stark
+region: header
+weight: -4
+provider: null
+plugin: 'block_content:2ce3f807-34d0-4388-8387-49e6b9110ed4'
+settings:
+  id: 'block_content:2ce3f807-34d0-4388-8387-49e6b9110ed4'
+  label: 'Contact us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

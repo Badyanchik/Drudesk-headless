@@ -1,0 +1,17 @@
+enable_chat: false
+message_recipient: data-contact-id
+chat_id: ''
+initiate_chat: skype-button
+button_style: bubble
+text_only: false
+button_text: ''
+button_color: ''
+chat_can_collapse: false
+chat_can_close: true
+chat_can_upload_file: true
+chat_enable_animation: true
+chat_enable_header: true
+exclude_mode: 0
+exclude_pages: ''
+_core:
+  default_config_hash: UbcDOjEBmuUpu2Ccsjxjq3L9IwzolCVnGsHVrTQHViY

@@ -1,0 +1,30 @@
+uuid: e5188e5c-45fd-4d75-9b78-6d02c639d6bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.testimonials.field_author
+    - field.field.paragraph.testimonials.field_description
+    - paragraphs.paragraphs_type.testimonials
+  module:
+    - text
+id: paragraph.testimonials.default
+targetEntityType: paragraph
+bundle: testimonials
+mode: default
+content:
+  field_author:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_description:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

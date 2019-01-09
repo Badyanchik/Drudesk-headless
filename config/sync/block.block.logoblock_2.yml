@@ -1,0 +1,25 @@
+uuid: b78292ca-1bc4-422d-95b8-cfc8e9891a2a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:logo_block:5e653877-b890-4191-bafa-a1217949c482'
+  module:
+    - block_content
+  theme:
+    - stark
+id: logoblock_2
+theme: stark
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:5e653877-b890-4191-bafa-a1217949c482'
+settings:
+  id: 'block_content:5e653877-b890-4191-bafa-a1217949c482'
+  label: 'Logo Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
