@@ -1,0 +1,21 @@
+uuid: 60d7dbbb-6959-4a41-a000-4ae140c3dcc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.person
+  module:
+    - text
+id: paragraph.person.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: person
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

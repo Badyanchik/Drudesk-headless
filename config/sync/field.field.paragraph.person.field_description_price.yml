@@ -1,0 +1,22 @@
+uuid: ebf600d4-88cf-491a-994c-5372cf95e34d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description_price
+    - paragraphs.paragraphs_type.person
+  module:
+    - text
+id: paragraph.person.field_description_price
+field_name: field_description_price
+entity_type: paragraph
+bundle: person
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

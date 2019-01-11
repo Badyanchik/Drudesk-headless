@@ -5,9 +5,12 @@ dependencies:
   config:
     - page_manager.page.front_page
   content:
+    - 'block_content:pricing_block:0bcd1574-d108-4e9e-9fd4-137b7f0a07f6'
+    - 'block_content:testimonials:5f605cb8-fa62-4abf-b9bd-0cb7c7988d7d'
     - 'block_content:text_and_link_block:04b80b4a-1a54-48bd-940a-83d59ea62f1b'
     - 'block_content:text_and_link_block:2e550c51-6266-469c-b3a9-0c4d76208d36'
     - 'block_content:text_and_link_block:ab33e8db-8ea9-4461-bba6-ac1059e563b9'
+    - 'block_content:what_we_do_block:cedd474c-b733-4390-ab86-1b0018eaa873'
   module:
     - block_content
 id: front_page-http_status_code-0
@@ -36,7 +39,7 @@ variant_settings:
       info: ''
       view_mode: full
       region: top
-      weight: -9
+      weight: -7
       uuid: 1f6bf7a3-0adb-4cd7-8923-2f774a481e61
       context_mapping: {  }
     04f0cd9d-00f5-41d1-bc51-76dd76c585f8:
@@ -48,8 +51,44 @@ variant_settings:
       info: ''
       view_mode: full
       region: top
-      weight: 0
+      weight: -5
       uuid: 04f0cd9d-00f5-41d1-bc51-76dd76c585f8
+      context_mapping: {  }
+    698c1e0e-72c1-42a9-9081-81603f360247:
+      id: 'block_content:cedd474c-b733-4390-ab86-1b0018eaa873'
+      label: 'What we do '
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: -9
+      uuid: 698c1e0e-72c1-42a9-9081-81603f360247
+      context_mapping: {  }
+    ec2dd842-a450-44e0-84a9-75f7a918a341:
+      id: 'block_content:0bcd1574-d108-4e9e-9fd4-137b7f0a07f6'
+      label: 'AFFORDABLE PRICING OPTIONS'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: -8
+      uuid: ec2dd842-a450-44e0-84a9-75f7a918a341
+      context_mapping: {  }
+    650d4ce3-10d0-4824-9709-7b25a44a9caa:
+      id: 'block_content:5f605cb8-fa62-4abf-b9bd-0cb7c7988d7d'
+      label: TESTIMONIALS
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: -6
+      uuid: 650d4ce3-10d0-4824-9709-7b25a44a9caa
       context_mapping: {  }
   id: block_display
   label: null

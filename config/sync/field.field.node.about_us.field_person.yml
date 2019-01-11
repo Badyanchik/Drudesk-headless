@@ -1,0 +1,46 @@
+uuid: 554dc8f0-8a13-4072-b98b-e53b8ecb6b15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person
+    - node.type.about_us
+    - paragraphs.paragraphs_type.person
+  module:
+    - entity_reference_revisions
+id: node.about_us.field_person
+field_name: field_person
+entity_type: node
+bundle: about_us
+label: Person
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      person: person
+    target_bundles_drag_drop:
+      person:
+        enabled: true
+        weight: 7
+      link:
+        weight: 8
+        enabled: false
+      price:
+        weight: 9
+        enabled: false
+      testimonials:
+        weight: 10
+        enabled: false
+      text:
+        weight: 11
+        enabled: false
+      what_we_do:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

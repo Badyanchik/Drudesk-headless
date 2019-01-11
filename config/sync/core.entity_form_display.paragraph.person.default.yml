@@ -1,0 +1,66 @@
+uuid: 14830e25-6d72-41ac-98c5-26bbcc3cf688
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.person.field_description
+    - field.field.paragraph.person.field_description_price
+    - field.field.paragraph.person.field_image
+    - field.field.paragraph.person.field_social_link
+    - field.field.paragraph.person.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.person
+  module:
+    - image
+    - link
+    - text
+id: paragraph.person.default
+targetEntityType: paragraph
+bundle: person
+mode: default
+content:
+  field_description:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_description_price:
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_image:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_social_link:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

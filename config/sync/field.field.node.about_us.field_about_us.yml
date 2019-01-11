@@ -1,0 +1,21 @@
+uuid: 9945bfc6-870c-4f24-a48a-8cc207a9403a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_us
+    - node.type.about_us
+  module:
+    - text
+id: node.about_us.field_about_us
+field_name: field_about_us
+entity_type: node
+bundle: about_us
+label: 'About us'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

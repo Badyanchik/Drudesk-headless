@@ -1,0 +1,23 @@
+uuid: 6bd05ee1-b51a-4b11-95e0-995e1c9c2e6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.node_blog_block
+    - field.storage.block_content.field_url
+  module:
+    - link
+id: block_content.node_blog_block.field_url
+field_name: field_url
+entity_type: block_content
+bundle: node_blog_block
+label: link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

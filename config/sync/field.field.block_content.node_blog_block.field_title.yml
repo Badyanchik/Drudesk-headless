@@ -1,0 +1,21 @@
+uuid: eeff2c65-e076-42af-9989-cba11b5b3187
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.node_blog_block
+    - field.storage.block_content.field_title
+  module:
+    - text
+id: block_content.node_blog_block.field_title
+field_name: field_title
+entity_type: block_content
+bundle: node_blog_block
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

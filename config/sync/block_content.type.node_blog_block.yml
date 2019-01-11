@@ -1,0 +1,8 @@
+uuid: e393b624-7e27-48c8-9832-b2075345626a
+langcode: en
+status: true
+dependencies: {  }
+id: node_blog_block
+label: 'Node blog block'
+revision: 0
+description: 'Block type for blocks in page node blog'

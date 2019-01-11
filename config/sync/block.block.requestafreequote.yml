@@ -1,0 +1,33 @@
+uuid: 9bb51a8c-6c8b-4900-adae-674e333684ce
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:node_blog_block:4457b79e-7810-448e-a9e3-703f6035b5f0'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - stark
+id: requestafreequote
+theme: stark
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:4457b79e-7810-448e-a9e3-703f6035b5f0'
+settings:
+  id: 'block_content:4457b79e-7810-448e-a9e3-703f6035b5f0'
+  label: 'Request a free quote'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

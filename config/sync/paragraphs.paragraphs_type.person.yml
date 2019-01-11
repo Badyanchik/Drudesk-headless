@@ -1,0 +1,9 @@
+uuid: abf66acf-cba1-4767-9159-e9e443d9fa2a
+langcode: en
+status: true
+dependencies: {  }
+id: person
+label: Person
+icon_uuid: null
+description: 'Paragraph type person for about us page'
+behavior_plugins: {  }

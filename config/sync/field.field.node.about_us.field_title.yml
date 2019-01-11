@@ -1,0 +1,21 @@
+uuid: 1aac1ef4-af7c-4a07-98dc-9f0df2e56994
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_title
+    - node.type.about_us
+  module:
+    - text
+id: node.about_us.field_title
+field_name: field_title
+entity_type: node
+bundle: about_us
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,33 @@
+uuid: ee7602e0-8ba3-443b-bbc4-83ea87a25177
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:node_blog_block:b45b222c-0cdc-4710-86ca-5ede1d7d6a05'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - stark
+id: aboutusandthisblog
+theme: stark
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:b45b222c-0cdc-4710-86ca-5ede1d7d6a05'
+settings:
+  id: 'block_content:b45b222c-0cdc-4710-86ca-5ede1d7d6a05'
+  label: 'About us and this blog'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

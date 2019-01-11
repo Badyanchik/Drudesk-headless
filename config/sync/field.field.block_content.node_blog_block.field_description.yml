@@ -1,0 +1,21 @@
+uuid: 4873efaa-d9c1-42ff-a709-cd3649423dea
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.node_blog_block
+    - field.storage.block_content.field_description
+  module:
+    - text
+id: block_content.node_blog_block.field_description
+field_name: field_description
+entity_type: block_content
+bundle: node_blog_block
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

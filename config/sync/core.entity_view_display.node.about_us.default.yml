@@ -1,0 +1,80 @@
+uuid: 35541e27-8c12-4f3c-95b7-45972543fcc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.about_us.field_about_us
+    - field.field.node.about_us.field_image
+    - field.field.node.about_us.field_link
+    - field.field.node.about_us.field_person
+    - field.field.node.about_us.field_short_description
+    - field.field.node.about_us.field_title
+    - node.type.about_us
+  module:
+    - entity_reference_revisions
+    - image
+    - link
+    - text
+    - user
+id: node.about_us.default
+targetEntityType: node
+bundle: about_us
+mode: default
+content:
+  field_about_us:
+    weight: 105
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_image:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_link:
+    weight: 106
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_person:
+    type: entity_reference_revisions_entity_view
+    weight: 101
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_short_description:
+    weight: 104
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_title:
+    weight: 103
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
